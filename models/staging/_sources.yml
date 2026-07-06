@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: nyc_taxi
+    schema: nyc_taxi     # TODO: confirm this matches the schema where raw_trips and raw_zones live
+    tables:
+      - name: raw_trips
+        description: "TODO: one sentence on what this table contains and its grain"
+      - name: raw_zones
+        description: "TODO: one sentence on what this table contains"

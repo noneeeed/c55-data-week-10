@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: stg_trips
+    description: "TODO: state the grain (one row per ___) and what source this reads from"
+    columns:
+      - name: pickup_datetime
+        description: "TODO"
+        # TODO: Task 5 -- add not_null tests on every column used as a join or
+        # group-by key. See the chapter's dbt Tests section for the syntax.
+      - name: pickup_location_id
+        description: "TODO"
+      - name: fare_amount
+        description: "TODO"
+      - name: tip_amount
+        description: "TODO"
+      - name: trip_distance
+        description: "TODO"
+      - name: tip_pct
+        description: "TODO"

@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: stg_zones
+    description: "TODO: state the grain and what source this reads from"
+    columns:
+      - name: location_id
+        description: "TODO"
+        # TODO: Task 5 -- this column is the join key. Which two generic tests
+        # guarantee a clean one-to-many join from stg_trips?
+      - name: borough
+        description: "TODO"
